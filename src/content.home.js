@@ -25,7 +25,7 @@ export function loadMain() {
     content.appendChild(infoDiv(img1, texts['main-1'], true));
 
     const img2 = document.createElement('img');
-    img2.id='location';
+    img2.id='item-left';
     img2.src = images["main-2"];
     content.appendChild(infoDiv(img2, texts['main-2'], false));
 

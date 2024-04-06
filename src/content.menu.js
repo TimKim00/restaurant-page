@@ -19,7 +19,7 @@ export function loadMenu() {
     content.appendChild(infoDiv(img1, texts['menu-1'], true));
 
     const img2 = document.createElement('img');
-    img2.id='menu-2';
+    img2.id='item-left';
     img2.src = images["menu-2"];
     content.appendChild(infoDiv(img2, texts['menu-2'], false));
 
@@ -29,7 +29,7 @@ export function loadMenu() {
     content.appendChild(infoDiv(img3, texts['menu-3'], true));
 
     const img4 = document.createElement('img');
-    img4.id='menu-4';
+    img4.id='item-left';
     img4.src = images["menu-4"];
     content.appendChild(infoDiv(img4, texts['menu-4'], false));
 }
